@@ -19,7 +19,8 @@ export default defineConfig({
       provider: "none",
       fonts: {
         dms: ["'DM Sans'", 'sans-serif'],
-        poppins: [],
+        raleway:["'Raleway'",'sans-serif'],
+        poppins: ["'Poppins'",'sans-serif'],
         display: ['Oswald', 'sans-serif']
       },
     }),
