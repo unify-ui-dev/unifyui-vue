@@ -138,7 +138,7 @@ const categories = [
                             <span i-carbon-shopping-cart bg="gray-7 dark:gray-3" flex text-2xl></span>
                         </router-link>
                     </div>
-                    <router-link to="#" class="px5 py2.5 rd-md text-emerald-8 dark-textgray-2 underline flex justify-center">
+                    <router-link to="#" class="px5 py2.5 rd-md text-emerald-8 dark-text-gray-2 underline flex justify-center">
                         Signin
                     </router-link>
                     <router-link to="#" class="px5 py2.5 rd-md bg-emerald-6 hover-bg-emerald-7 text-white flex justify-center duration-300 ease-linear">

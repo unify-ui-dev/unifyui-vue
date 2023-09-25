@@ -118,7 +118,7 @@ function toggleNavBar(){
                     class="flex items-center h12 px6 rd-full bg-purple-6 text-white border border-purple-600">
                     Hire us Now
                 </router-link>
-                <router-link to="#" class="bg-gray-1 dark-bg-gray-9 borde border-gray-2 dark-border-gray-8 flex items-center h12 px6 rd-full text-purple-7 dark-text-gray-3">
+                <router-link to="#" class="bg-gray-1 dark-bg-gray-9 border border-gray-2 dark-border-gray-8 flex items-center h12 px6 rd-full text-purple-7 dark-text-gray-3">
                     Learn more
                 </router-link>
             </div>

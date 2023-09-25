@@ -1,5 +1,6 @@
 <script setup>
 import { useHead } from 'unhead'
+import { blocGroups } from '../data/blocks';
 
 useHead({
   title: 'Unify-UI ressources',
@@ -16,89 +17,6 @@ useHead({
     }
   ]
 })
-const blocGroups = [
-    {
-        id:1,
-        title: "Hero Sections",
-        items: [
-            {
-                id:1,
-                title: "Agency Website",
-                link: "/hero-sections/agency/"
-            },
-            {
-                id:2,
-                title: "Architecture HeroSection",
-                link: "/hero-sections/architecture/"
-            },
-            {
-                id:3,
-                title: "Creative agency Hero Section",
-                link: "/hero-sections/creative-agency/"
-            },
-            {
-                id:4,
-                title: "Digital Agency Hero Section",
-                link: "/hero-sections/digital-agency/"
-            },
-            {
-                id:5,
-                title: "Grocery Store Hero Section",
-                link: "/hero-sections/grocerystore/"
-            },
-            {
-                id:6,
-                title: "HealthCare Hero Section",
-                link: "/hero-sections/healthcare/"
-            },
-            {
-                id:7,
-                title: "Agency Hero Section",
-                link: "/hero-sections/hero-section/"
-            },
-            {
-                id:8,
-                title: "Medcare Hero Section",
-                link: "/hero-sections/medcare/"
-            },
-            {
-                id:9,
-                title: "Personnal website Hero Section",
-                link: "/hero-sections/personnal-porfolio/"
-            },
-            {
-                id:10,
-                title: "Podcast Hero Section",
-                link: "/hero-sections/podcast/"
-            },
-            {
-                id:11,
-                title: "Podcast Agency Hero Section",
-                link: "/hero-sections/podcast-agency/"
-            },
-            {
-                id:12,
-                title: "SaaS Hero Section",
-                link: "/hero-sections/saas/"
-            },
-            {
-                id:13,
-                title: "SaaS Product Hero Section",
-                link: "/hero-sections/saas-product/"
-            },
-            {
-                id:14,
-                title: "Software Agency Hero Section",
-                link: "/hero-sections/software-agency/"
-            },
-            {
-                id:15,
-                title: "Transportation Hero Section",
-                link: "/hero-sections/transportation/"
-            },
-        ]
-    }
-]
 </script>
 <template>
     <main>

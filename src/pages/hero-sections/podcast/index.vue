@@ -110,10 +110,10 @@ function closeNavBar(){
             <div py="lg:10 xl:12" text="center lg:left" class="lg-w-1/2 max-w-2xl md-max-w-3xl mx-auto">
                 <h1 text="teal-950 dark:white 4xl md:5xl lg:6xl" class="font-semibold leading-tight">
                     Find and listen in your favorite <div relative
-                        after="content-empty absolute inset-x-0 h3 bg-sky-1 dark:bg-sky-950 bottom-2" inline-block
+                        un-after="content-empty absolute inset-x-0 h3 bg-sky-1 dark:bg-sky-950 bottom-2" inline-block
                         px-2>
-                        <span relative z10 text-transparent bg-clip-text bg-gradient-to-tr from-sky-8
-                            to-teal-4>Podcasts</span>
+                        <span class="relative z10 text-transparent bg-clip-text bg-gradient-to-tr from-sky-8
+                            to-teal-4">Podcasts</span>
                     </div>!
                 </h1>
                 <p mt8 text-gray-7 dark-text-gray-3 max-w-lg lg-max-w-none mx-auto>

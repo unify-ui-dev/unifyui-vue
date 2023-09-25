@@ -89,7 +89,7 @@ function closeNavBar(){
                     </li> 
                 </ul>
                 <div flex flex-col sm-flex-row sm-items-center gap-4  lg-min-w-max mt="10 lg:0">
-                    <router-link to="#" class="px6 h10 text-sm flex items-center w-full lg-w-max justify-center gap-x-3 border border-gray-2 dark-border-gray-7 rd-lg text-green-7 dark-text-gray-1 bg-gray-1 dark-bg-gray-9">
+                    <router-link to="#" class="px6 h10 text-sm flex items-center w-full lg-w-max justify-center gap-x-3  rd-lg text-green-7 dark-text-gray-1 bg-gray-1 dark-bg-gray-9">
                         Book Demo
                     </router-link>
                 </div>

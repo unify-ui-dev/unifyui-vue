@@ -21,7 +21,8 @@ export default defineConfig({
         dms: ["'DM Sans'", 'sans-serif'],
         raleway:["'Raleway'",'sans-serif'],
         poppins: ["'Poppins'",'sans-serif'],
-        display: ['Oswald', 'sans-serif']
+        display: ['Oswald', 'sans-serif'],
+        inter:["'Inter'", 'sans-serif']
       },
     }),
     presetIcons(

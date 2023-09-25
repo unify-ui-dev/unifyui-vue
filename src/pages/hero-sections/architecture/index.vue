@@ -49,26 +49,24 @@ const navItems = [
 
 function toggleNavBar(){
     navIsOpen.value = !navIsOpen.value
-    document.body.classList.toggle("overflow-y-auto")
 }
 function closeNavBar(){
     navIsOpen.value = false
-    ocument.body.classList.add("overflow-y-auto")
 }
 
 </script>
 <template>
-    <div data-nav-overlay aria-hidden="true" class="fixed bg-gray-8/40 inset-0 z30" :class="navIsOpen ? 'visible flex lg-hidden lg-invisible':'invisible hidden'"></div>
+    <div aria-hidden="true" @click="closeNavBar()" class="fixed bg-gray-8/40 inset-0 z30" :class="navIsOpen ? 'visible flex lg-hidden lg-invisible':'invisible hidden'"></div>
     <div mx-auto max-w-7xl w-full px="5 sm:10 md:12 lg:5">
         <div class="w-full flex justify-between h14 items-center">
             <div  text="gray-7 dark:gray-300" class="hfull flex items-center gap-x-4">
                 <a href="tel:" flex gap-1 items-center text-sm>
-                    <span i-carbon-phone text-xl bg="gray-7 dark:gray-300"></span>
-                    <span hidden sm-flex>+243 97 24 44 966</span>
+                    <span i-carbon-phone text-xl bg="gray-7 dark:gray-3"></span>
+                    <span class="hidden sm-flex">+243 97 24 44 966</span>
                 </a>
                 <a href="mailto:" flex gap-1 items-center text-sm>
-                    <span i-carbon-email bg="gray-7 dark:gray-300" text-xl></span>
-                    <span hidden sm-flex>johndoe@info.com</span>
+                    <span i-carbon-email bg="gray-7 dark:gray-3" text-xl></span>
+                    <span class="hidden sm-flex">johndoe@info.com</span>
                 </a>
             </div>
             <div text="gray-7 dark:gray-300" class="flex items-center gap-x-2.5 -mx-2">
@@ -94,7 +92,7 @@ function closeNavBar(){
             </div>
         </div>
     </div>
-    <header border-b="~ gray-1 dark:gray-9" bg="white dark:gray-950 op-80" backdrop-filter backdrop-blur-xl>
+    <header border-b="~ gray-1 dark:gray-9" bg="white dark:gray-950 op-80" class="relative backdrop-filter backdrop-blur-xl z50">
         <nav px="5 sm:10 md:12 lg:5" class="sticky z40 left-0 top-0 w-full flex items-center h20  mx-auto max-w-7xl gap-x-5 justify-between">
             <div flex items-center min-w-max>
                 <router-link to="/" text-xl font-semibold flex items-center gap-x-2>
@@ -106,7 +104,7 @@ function closeNavBar(){
                 </router-link>
             </div>
 
-            <div data-navbar bg="white dark:gray-950  lg:transparent" border-b="~ gray-2 dark:gray-8 lg:none" 
+            <div bg="white dark:gray-950  lg:transparent" border-b="~ gray-2 dark:gray-8 lg:none" 
                 py="8 lg:0" px="5 sm:10 md:12 lg:0"  lg="flex justify-between"
                 fixed top-20 left-0 w-full lg-top-0 lg-relative  duration-300 ease-linear
                 :class="navIsOpen ? 'visible op100 translate-y-0':'translate-y-10 lg-translate-y-0 invisible lg-visible op0 lg-op100'">
@@ -118,7 +116,7 @@ function closeNavBar(){
                     </li>
                 </ul>
                 <div flex sm-items-center lg-min-w-max mt-10 lg-mt-0>
-                    <router-link to="#" px-6 items-center h-12 rd-3xl text="pink-7 dark:white" border="~ gray-200 dark:gray-800" bg="gray-1 dark:gray-9" duration-300 ease-linear flex justify-center w-full sm-w-auto>
+                    <router-link to="#" class="px-6 items-center h-12 rd-3xl text-pink-7 dark-text-white border border-gray-2 dark-border-gray-8 bg-gray-1 dark-bg-gray-9 duration-300 ease-linear flex justify-center w-full sm-w-auto">
                         Book a call
                     </router-link>
                 </div>
@@ -150,12 +148,12 @@ function closeNavBar(){
                     incidunt expedita rem! Suscipit molestiae voluptatem iure, eum alias nobis velit quidem
                 </p>
                 <div flex flex-col sm-flex-row items-center justify-center lg-justify-start gap-4 w-full>
-                    <a href="#" px6 items-center h12 rd-3xl bg-pink-6 text-white duration-300 ease-linear flex justify-center w="full sm:auto">
+                    <router-link to="#" class="px6 items-center h12 rd-3xl bg-pink-6 text-white duration-300 ease-linear flex justify-center w-full sm-w-auto">
                         Get started
-                    </a>
-                    <a href="#" px6 items-center h12 rd-3xl text="pink-700 dark:white" border="~ gray-2 dark:gray-8"  bg="gray-1 dark:gray-9" duration-300 ease-linear flex justify-center w="full sm:auto">
+                    </router-link>
+                    <router-link to="#" class="px-6 items-center h-12 rd-3xl text-pink-7 dark-text-white border border-gray-2 dark-border-gray-8 bg-gray-1 dark-bg-gray-9 duration-300 ease-linear flex justify-center w-full sm-w-auto">
                         Book a call
-                    </a>
+                    </router-link>
                 </div>
                 <div mt5 flex items-center justify-center flex-wrap gap-4 lg-justify-start w-full>
                     <a href="#" target="_blank">

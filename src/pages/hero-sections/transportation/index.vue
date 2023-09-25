@@ -105,8 +105,8 @@ function toggleNavBar(){
                     </button>
                     <div
                         class="flex md-flex-col items-center md-space-y-4 gap-x-4 w-max max-w-max">
-                        <span border="~ gray-2 dark:gray-8" bg="gray-2 dark:gray-8" before="absolute content-empty inset-1 rd-full bg-blue-6" class="relative w5 h5 rd-full"></span>
-                        <span border="~ gray-2 dark:gray-8" bg="gray-2/90 dark:gray-8/90" before="absolute content-emptyinset-1 rd-full" class="relative w5 h5 rd-full"></span>
+                        <span border="~ gray-2 dark:gray-8" bg="gray-2 dark:gray-8" un-before="absolute content-empty inset-1 rd-full bg-blue-6" class="relative w5 h5 rd-full"></span>
+                        <span border="~ gray-2 dark:gray-8" bg="gray-2/90 dark:gray-8/90" un-before="absolute content-emptyinset-1 rd-full" class="relative w5 h5 rd-full"></span>
                     </div>
                     <button border="~ gray-3 dark:gray-7" bg="gray-2 dark:gray-8" text="gray-8 dark:gray-2" class="outline-none p1.5 rd-full">
                         <span class="sr-only">Next</span>
