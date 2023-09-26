@@ -1,7 +1,6 @@
 <script setup>
 import { useHead } from 'unhead'
 
-
 useHead({
   title: 'Feaure & Services',
   meta: [
@@ -45,10 +44,9 @@ const features = [
     description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus expedita nam itaque ducimus quod fugiat .'
   }
 ]
-
 </script>
 <template>
-    <section py-20>
+    <section py20>
         <div px="5 sm:10 md:12 lg:5" class="max-w-7xl mx-auto flex flex-col gap-14">
             <div class="flex max-w-xl">
                 <h2 class="text-4xl lg-text-4xl text-gray-8 dark-text-white font-bold">
