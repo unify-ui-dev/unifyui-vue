@@ -43,19 +43,7 @@ const features = [
     icon:'i-carbon-development',
     title:'Feature 4',
     description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus expedita nam itaque ducimus quod fugiat .'
-  },
-  {
-    id:5,
-    icon:'i-carbon-development',
-    title:'Feature 5',
-    description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus expedita nam itaque ducimus quod fugiat .'
-  },
-  {
-    id:6,
-    icon:'i-carbon-development',
-    title:'Feature 6',
-    description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus expedita nam itaque ducimus quod fugiat .'
-  },
+  }
 ]
 
 </script>
