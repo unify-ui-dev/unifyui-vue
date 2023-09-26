@@ -65,7 +65,7 @@ function toggleNavbar(){
                 </div>
                 <div un-bg="white dark:gray-950 lg:!transparent" un-py="20 lg:0" un-px="5 sm:10 md:14 lg:0" space-y="10 lg:0" class="flex flex-col inset-0 fixed top-0 h-100dvh
                     transition-all ease-linear duration-300 lg-flex-row lg-flex-1 lg-gap-x-10 lg-relative lg-top-0 lg-h-full lg-items-center lg-justify-between lg-w-max"
-                    :class="navIsOpen ? 'translate-y-0 op-100 visible' : '-translate-y-9 op-0 invisible lg-translate-y-0'">
+                    :class="navIsOpen ? 'translate-y-0 op-100 visible' : '-translate-y-9 op-0 invisible lg-visible lg-op-100 lg-translate-y-0'">
                     <ul text="gray-7 dark:gray-3" class="flex flex-col gap-y-5 lg-items-center lg-flex-row lg-gap-x-5 lg-h-full lg-justify-center lg-flex-1">
                         <li v-for="navItem in navItems" :key="navItem.id">
                             <a :href="navItem.href" transition ease-linear hover="text-gray-9 dark:text-white">
