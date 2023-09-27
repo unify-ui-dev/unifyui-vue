@@ -68,7 +68,10 @@ useHead({
                 </div>
             </div>
         </div>
-    </section></template>
-<style >body {
+    </section>
+</template>
+<style >
+body {
     --at-apply: font-dms bg-white dark-bg-gray-950
-}</style>
+}
+</style>

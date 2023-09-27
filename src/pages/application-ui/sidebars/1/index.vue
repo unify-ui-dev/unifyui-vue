@@ -1,23 +1,8 @@
 <script setup>
 import { useHead } from 'unhead'
-import { ref, computed } from 'vue';
-
-
+import { ref } from 'vue';
 const sidebarIsToggled = ref(false)
-
 const sidebarIsResized = ref(false)
-
-
-const sidebarClasses = ref(`-translate-x-full lg-translate-x-0 lg-w72`)
-
-
-const getSidebarClasses = computed(
-    () => {
-        const clsToggled = sidebarIsToggled ? ' -translate-x-0 ' : ' -translate-x-full lg-translate-x-0 ',
-            clsResized = sidebarIsResized ? ' !lg-w20 ' : ' lg-w72 '
-        return `${clsToggled} ${clsResized}`
-    }
-)
 
 
 const toggleSidebar = () => {

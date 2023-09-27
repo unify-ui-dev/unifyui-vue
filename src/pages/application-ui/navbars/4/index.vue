@@ -55,60 +55,6 @@ function closeNavBar(){
     navIsOpen.value = false
     ocument.body.classList.add("overflow-y-auto")
 }
-
-const features = [
-    {
-        id:1,
-        text:"Fresh Vegetables"
-    },
-    {
-        id:2,
-        text:"100% Guarantee"
-    },
-    {
-        id:3,
-        text:"Cash on Delivery"
-    },
-    {
-        id:4,
-        text:"Fast Delivery"
-    },
-]
-
-
-const categories = [
-    {
-        id:1,
-        icon:"/images/icons/Fruitsandvegetables.png",
-        title:"Dairy Products",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        id:2,
-        icon:"/images/icons/Fruitsandvegetables.png",
-        title:"Vegetables & Fruits",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        id:3,
-        icon:"/images/icons/Fruitsandvegetables.png",
-        title:"Vegetables & Fruits",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        id:4,
-        icon:"/images/icons/Fruitsandvegetables.png",
-        title:"Spices & Seasonings",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        id:5,
-        icon:"/images/icons/Fruitsandvegetables.png",
-        title:"Spices & Seasonings",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-]
-
 </script>
 <template>
     <div @click="closeNavBar()" aria-hidden="true" fixed bg="gray-8/40" class="inset-0 z30 hidden lg-hidden" :class="navIsOpen ? 'flex lg-hidden' : 'hidden'"></div>
