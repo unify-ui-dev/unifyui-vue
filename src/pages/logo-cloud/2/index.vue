@@ -50,7 +50,6 @@ const logos = [
         logo:"/logos/spotify.png"
     },
 ]
-
 </script>
 <template>
         <section class="py-20">

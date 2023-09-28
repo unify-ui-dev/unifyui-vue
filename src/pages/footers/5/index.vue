@@ -1,7 +1,6 @@
 <script setup>
 import { useHead } from 'unhead'
 
-
 useHead({
   title: 'Footer sections',
   meta: [
@@ -17,9 +16,6 @@ useHead({
     }
   ]
 })
-
-
-
 </script>
 <template>
     <footer un-text="gray-7 dark:gray-3" class="px5 py2">

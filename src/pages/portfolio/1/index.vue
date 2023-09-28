@@ -1,7 +1,6 @@
 <script setup>
 import { useHead } from 'unhead'
 
-
 useHead({
   title: 'Portfolio sections',
   meta: [
@@ -17,9 +16,6 @@ useHead({
     }
   ]
 })
-
-
-
 </script>
 <template>
     <section class="py-20">

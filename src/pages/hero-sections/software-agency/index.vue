@@ -154,8 +154,6 @@ function toggleNavBar(){
             </div>
         </div>
     </section>
-
-
 </template>
 
 <style >

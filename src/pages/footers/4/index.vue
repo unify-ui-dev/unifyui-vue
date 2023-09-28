@@ -1,7 +1,6 @@
 <script setup>
 import { useHead } from 'unhead'
 
-
 useHead({
   title: 'Footer sections',
   meta: [

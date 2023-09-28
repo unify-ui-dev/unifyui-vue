@@ -1,7 +1,6 @@
 <script setup>
 import { useHead } from 'unhead'
 
-
 useHead({
   title: 'Footer sections',
   meta: [
@@ -17,7 +16,6 @@ useHead({
     }
   ]
 })
-
 
 const footerLinks = [
   {
@@ -125,8 +123,6 @@ const footerLinks = [
     ]
   }
 ]
-
-
 </script>
 <template>
     <footer bg="white dark:gray-950" text="gray-7 dark:gray-3">
